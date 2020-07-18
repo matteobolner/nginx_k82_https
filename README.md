@@ -6,6 +6,7 @@ The kubernetes cluster is build through k3s (https://k3s.io/)and instantiated on
 The SSL certificates are encrypted with kubernetes Secrets, and the configuration files managed with kubernetes ConfigMaps
 
 What works:
--The cluster was built succesfully, and can be accessed through https from each of the machines public IP addresses
-TODO:
+-The cluster was built succesfully, and can be accessed through https from each of the machines public IP addresses  
+
+TO DO:  
 -implement a load balancer
